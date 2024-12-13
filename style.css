@@ -1,0 +1,76 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+h1, h2, h3, h4 {
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(224, 195, 25);
+    background-color: #710dac;
+
+  }
+  
+  nav {
+    background-image: url(./media/bg\ css.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  h3:hover {
+    background-color: red;
+  }
+  
+  h2:hover {
+    background-color: green;
+  }
+
+  .logoAulab {
+    width: 100px;
+    height: 100px;
+    background-color: #710ba06e;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .linkList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .image-article {
+    width: 300px;
+  }
+
+  .contenitore {
+    display: flex;
+  }
+
+  .primoArticolo {
+    width: 60%;
+    border: 2px solid purple;
+  }
+
+  aside {
+    background-color: #e2d40e;
+    margin: 20px;
+    border: 2px solid purple;
+
+  }
+
+  .btn-iscriviti {
+    background-color: yellow;
+    color: purple;
+  }
+
+  .link:hover {
+    border-bottom: 2px solid red;
+  }
